@@ -1,3 +1,4 @@
+#http://blog.csdn.net/wonder4/article/details/52245636
 #jdk
 localhome=/usr/local
 swhome=/home/hadoop/sw
