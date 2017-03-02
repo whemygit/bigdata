@@ -1,0 +1,31 @@
+create table table1 (Date varchar(20), userid varchar(10), anount int(6));
+insert into table1 (Date,userid,anount) values ('2010-01-02 10:00', 'u002', '300');
+insert into table1 (Date,userid,anount) values ('2010-01-02 10:00', 'u002', '100');
+insert into table1 (Date,userid,anount) values ('2010-03-02 10:00', 'u001', '500');
+insert into table1 (Date,userid,anount) values ('2010-01-02 10:00', 'u002', '100');
+insert into table1 (Date,userid,anount) values ('2010-01-02 10:00', 'u002', '400');
+insert into table1 (Date,userid,anount) values ('2010-01-02 10:00', 'u001', '100');
+insert into table1 (Date,userid,anount) values ('2010-03-02 10:00', 'u002', '100');
+insert into table1 (Date,userid,anount) values ('2010-03-02 10:00', 'u003', '100');
+insert into table1 (Date,userid,anount) values ('2010-02-02 10:00', 'u001', '100');
+insert into table1 (Date,userid,anount) values ('2010-02-02 10:00', 'u002', '300');
+insert into table1 (Date,userid,anount) values ('2010-02-02 10:00', 'u003', '200');
+
+抽取日期的年月
+select extract(year_month from date) as ym, userid from table1 where ym ='201001'
+
+
+自查寻，抽取后保存为临时表tb2再从中查询
+select ym,userid,sum(anount) from
+(select extract(year_month from date) as ym, userid,anount from table1 ) as tb2
+group by ym,userid;
+
+
+将查询结果存储为新表table2
+create table table2 as
+select ym,userid,sum(anount) as sam from
+(select extract(year_month from date) as ym, userid,anount from table1 ) as tb2
+group by ym,userid;
+
+
+select ym, userid,sum(sam) as ssam from table2 group by userid;
