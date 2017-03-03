@@ -15,7 +15,7 @@ insert into table1 (Date,userid,anount) values ('2010-02-02 10:00', 'u003', '200
 select extract(year_month from date) as ym, userid from table1 where ym ='201001'
 
 
-自查寻，抽取后保存为临时表tb2再从中查询
+嵌套查询，抽取后保存为临时表tb2再从中查询
 select ym,userid,sum(anount) from
 (select extract(year_month from date) as ym, userid,anount from table1 ) as tb2
 group by ym,userid;
@@ -27,5 +27,97 @@ select ym,userid,sum(anount) as sam from
 (select extract(year_month from date) as ym, userid,anount from table1 ) as tb2
 group by ym,userid;
 
+日期函数
+1)显示到日期 （Date())
+create table table3 as
+select Date,Date(Date) as date1,userid,anount from table1;
 
-select ym, userid,sum(sam) as ssam from table2 group by userid;
+select * from table3 limit 5;
+
+select * from table3 where date1>='2010-02-01';
+
+2)AddDate双参数，在第一个参数的基础上加第二个参数天
+select AddDate('2010-02-03',1);
+返回：2010-02-04
+
+3)Addtime双参数，在第一个参数的基础上加第二个参数对应时间
+SELECT ADDTIME('2007-12-31 23:59:59.999999', '1 1:1:1.000002');
+返回'2008-01-02 01:01:01.000001'
+
+
+4)curdate()
+select curdate();
+output:2017-03-03
+
+5)curtime()
+select curtime();
+output:19:26:42
+
+
+6)datediff()
+select datediff('2010-02-03','2012-02-04');
+output:-731
+
+7)date_add()
+SELECT DATE_ADD('2000-12-31 23:59:59',
+    ->                 INTERVAL 1 SECOND);
+output:'2001-01-01 00:00:00'
+
+
+SELECT DATE_ADD('2010-12-31 23:59:59',
+    ->                 INTERVAL 1 DAY);
+output:'2011-01-01 23:59:59'
+
+
+8)date_format()
+select date_format(curdate(),'%w %m %d %y');
+output:5 03 03 17 
+
+9)day()
+select curdate();2017-03-03
+select day(curdate());
+output:3
+
+10)dayofweek()
+select dayofweek(curdate());
+output:6   
+comment:1=Sunday, 2=Monday
+
+
+11)hour()
+select hour(curtime());
+output:19
+
+12)Minute()
+13)Second()
+14)Month()
+select month(curtime());
+output:3
+15)Year()
+output:2017
+
+16)select time(curtime());
+output:19:50:39
+
+17)now()
+select now();
+output:2017-03-03 19:51:48
+
+16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
