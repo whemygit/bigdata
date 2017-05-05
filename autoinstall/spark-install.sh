@@ -19,3 +19,7 @@ echo '''export SPARK_DIST_CLASSPATH=$(/usr/local/hadoop/bin/hadoop classpath)
 export JAVA_HOME=/usr/lib/jvm/jdk''' >> ./conf/spark-env.sh
 
 source /etc/profile
+
+#start-spark
+cd /usr/local/spark
+./bin/spark-shell
