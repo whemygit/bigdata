@@ -22,6 +22,35 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.yaml:snakeyaml:1.15:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.lionsoul:jcseg-server:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.lionsoul:jcseg-elasticsearch:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hdrhistogram:HdrHistogram:2.1.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.elasticsearch:securesm:1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.elasticsearch:elasticsearch:5.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-suggest:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-spatial3d:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-spatial-extras:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-spatial:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-sandbox:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queryparser:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queries:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-misc:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-memory:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-join:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-highlighter:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-grouping:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-backward-codecs:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.jopt-simple:jopt-simple:5.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.java.dev.jna:jna:4.2.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.9.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.tdunning:t-digest:3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.carrotsearch:hppc:0.7.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.lionsoul:jcseg-core:2.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: xmlenc:xmlenc:0.52:jar" level="project" />
     <orderEntry type="library" name="SBT: xml-apis:xml-apis:1.3.04:jar" level="project" />
     <orderEntry type="library" name="SBT: xerces:xercesImpl:2.9.1:jar" level="project" />
@@ -183,12 +212,23 @@
     <orderEntry type="library" name="SBT: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.6.5:jar" level="project" />
     <orderEntry type="library" name="SBT: com.fasterxml.jackson.module:jackson-module-paranamer:2.6.5:jar" level="project" />
     <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.6.5:jar" level="project" />
     <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.6.5:jar" level="project" />
     <orderEntry type="library" name="SBT: com.esotericsoftware:minlog:1.3.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.esotericsoftware:kryo-shaded:3.0.3:jar" level="project" />
     <orderEntry type="library" name="SBT: com.clearspring.analytics:stream:2.7.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.chuusai:shapeless_2.11:2.3.2:jar" level="project" />
     <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-analyzers-common:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.lionsoul:jcseg-analyzer:2.1.1:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="utils">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../utils" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

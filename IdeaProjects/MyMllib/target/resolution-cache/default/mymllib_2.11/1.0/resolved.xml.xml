@@ -4,7 +4,7 @@
 		module="mymllib_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170717101036"
+		publication="20170719175524"
 	>
 		<description>
 		MyMllib
@@ -39,5 +39,12 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-graphx_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.lionsoul" name="jcseg-core" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.lionsoul" name="jcseg-analyzer" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.lionsoul" name="jcseg-server" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.lionsoul" name="jcseg-elasticsearch" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.lionsoul" name="jcseg" rev="2.1.1" conf="compile->default(compile)">
+			<artifact name="jcseg" type="pom" ext="pom" conf="pom"/>
+		</dependency>
 	</dependencies>
 </ivy-module>

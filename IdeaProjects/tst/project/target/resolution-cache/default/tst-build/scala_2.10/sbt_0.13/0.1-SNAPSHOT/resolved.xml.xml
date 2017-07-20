@@ -4,7 +4,7 @@
 		module="tst-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170714114615"
+		publication="20170719183359"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

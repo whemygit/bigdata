@@ -1,4 +1,4 @@
-[info] Updating {file:/root/IdeaProjects/tst/project/}tst-build...
+[info] Updating {file:/root/bigdata/IdeaProjects/tst/project/}tst-build...
 [debug] :: resolving dependencies :: default#tst-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#tst-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#tst-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ba0e08e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b4fe49b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
 [debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
@@ -2221,19 +2221,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3495ms :: artifacts dl 93ms
-[debug] 	report for default#tst-build;0.1-SNAPSHOT compile produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-compile.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT runtime produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-runtime.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT test produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-test.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT provided produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-provided.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT optional produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-optional.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT compile-internal produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-compile-internal.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT runtime-internal produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-runtime-internal.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT test-internal produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-test-internal.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT plugin produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-plugin.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT sources produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-sources.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT docs produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-docs.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT pom produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-pom.xml
-[debug] 	report for default#tst-build;0.1-SNAPSHOT scala-tool produced in /root/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-scala-tool.xml
-[debug] 	resolve done (3495ms resolve - 93ms download)
+[debug] :: resolution report :: resolve 4172ms :: artifacts dl 53ms
+[debug] 	report for default#tst-build;0.1-SNAPSHOT compile produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-compile.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT runtime produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-runtime.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT test produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-test.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT provided produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-provided.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT optional produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-optional.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT compile-internal produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-compile-internal.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT runtime-internal produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-runtime-internal.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT test-internal produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-test-internal.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT plugin produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-plugin.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT sources produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-sources.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT docs produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-docs.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT pom produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-pom.xml
+[debug] 	report for default#tst-build;0.1-SNAPSHOT scala-tool produced in /root/bigdata/IdeaProjects/tst/project/target/resolution-cache/reports/default-tst-build-scala-tool.xml
+[debug] 	resolve done (4172ms resolve - 53ms download)
 [info] Done updating.

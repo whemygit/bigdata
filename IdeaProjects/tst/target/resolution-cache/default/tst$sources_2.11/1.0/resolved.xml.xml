@@ -4,7 +4,7 @@
 		module="tst$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170714162136"
+		publication="20170719183500"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

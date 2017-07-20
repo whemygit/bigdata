@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.lionsoul:jcseg-analyzer:2.1.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.lionsoul/jcseg-analyzer/jars/jcseg-analyzer-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.lionsoul/jcseg-analyzer/srcs/jcseg-analyzer-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
