@@ -1,6 +1,8 @@
-/**
- * Created by root on 17-7-20.
- */
+
+//import org.lionsoul.jcseg.tokenizer.core.JcsegTaskConfig;
+//
+//import java.util.ArrayList;
+
 import org.lionsoul.jcseg.tokenizer.ASegment;
 import java.io.IOException;
 import java.io.StringReader;

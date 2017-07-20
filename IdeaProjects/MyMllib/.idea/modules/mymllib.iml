@@ -221,14 +221,5 @@
     <orderEntry type="library" name="SBT: org.apache.lucene:lucene-analyzers-common:6.3.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.3.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.lionsoul:jcseg-analyzer:2.1.1:jar" level="project" />
-    <orderEntry type="module-library">
-      <library name="utils">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../utils" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>
