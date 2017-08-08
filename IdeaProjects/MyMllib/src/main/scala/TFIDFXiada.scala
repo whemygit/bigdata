@@ -20,6 +20,7 @@ object TFIDFXiada {
     )).toDF("label","sentence")
 
     val tokenizer=new Tokenizer().setInputCol("sentence").setOutputCol("words")
+
     val wordsData=tokenizer.transform(sentencesData)
     wordsData.show(false)
 

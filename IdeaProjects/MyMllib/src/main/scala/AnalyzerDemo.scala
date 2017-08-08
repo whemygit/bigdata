@@ -13,14 +13,20 @@ object AnalyzerDemo {
     Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
     val conf = new SparkConf().setAppName("my app").setMaster("local")
     val sc = new SparkContext(conf)
-    val data=sc.textFile("file:///root/word1.txt").map(x => {
-      val list=anaylyzerWords(x) //分词处理
-      list.toString.replace("[", "").replace("]", "").split(",")
-    }).flatMap(x => x.toList).map(x => (x.trim(),1)).reduceByKey(_+_).top(10)(Ord.reverse).foreach(println)
-  }
+//    val data=sc.textFile("file:///root/word1.txt").map(x => {
+//      val list=anaylyzerWords(x) //分词处理
+//      list.toString.replace("[", "").replace("]", "").split(",")
+//    }).flatMap(x => x.toList).map(x => (x.trim(),1)).reduceByKey(_+_).top(10)(Ord.reverse).foreach(println)
+//  }
+
+  val data=sc.textFile("file:///root/word1.txt").map(x => {
+    val list=anaylyzerWords(x) //分词处理
+    list.toString.replace("[", "").replace("]", "").split(",")
+  }).flatMap(x => x.toList).foreach(println)
+}
 
   //分词排序
-  object Ord extends Ordering[(String,Int)]{
-    def compare(a:(String,Int), b:(String,Int))=a._2 compare (b._2)
-  }
+//  object Ord extends Ordering[(String,Int)]{
+//    def compare(a:(String,Int), b:(String,Int))=a._2 compare (b._2)
+//  }
 }

@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#tst_2.11;1.0 [compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@613a0a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32ef0bd4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -28,7 +28,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.pom(pom.original) (1421ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.pom(pom.original) (1699ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
@@ -42,7 +42,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.2.0!spark-parent_2.11.pom(pom.original) (2036ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.2.0!spark-parent_2.11.pom(pom.original) (3711ms)
 [info] Resolving org.apache#apache;14 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;14 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;14
@@ -2765,7 +2765,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.pom(pom.original) (1667ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.pom(pom.original) (1247ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -2773,9 +2773,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.2.0->org.apache.spark#spark-launcher_2.11;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-launcher_2.11;2.2.0->org.apache.spark#spark-tags_2.11;2.2.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-tags_2.11;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd94731
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d41c0de
 [info] Resolving org.apache.spark#spark-tags_2.11;2.2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@dd94731
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3d41c0de
 [debug] 		tried /root/.ivy2/local/org.apache.spark/spark-tags_2.11/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-tags_2.11;2.2.0
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom
@@ -2785,7 +2785,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.2.0!spark-tags_2.11.pom(pom.original) (1154ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.2.0!spark-tags_2.11.pom(pom.original) (1168ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -2829,7 +2829,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.pom(pom.original) (1163ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.pom(pom.original) (1250ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -2930,7 +2930,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.pom(pom.original) (1160ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.pom(pom.original) (1195ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -2977,7 +2977,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.pom(pom.original) (1143ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.pom(pom.original) (1854ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -3943,7 +3943,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.11;2.2.0!spark-mllib_2.11.pom(pom.original) (1456ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.11;2.2.0!spark-mllib_2.11.pom(pom.original) (1657ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -3956,9 +3956,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.11;2.2.0->org.apache.spark#spark-core_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib_2.11;2.2.0->org.apache.spark#spark-streaming_2.11;2.2.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.11;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23c6438d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a906b56
 [info] Resolving org.apache.spark#spark-streaming_2.11;2.2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@23c6438d
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3a906b56
 [debug] 		tried /root/.ivy2/local/org.apache.spark/spark-streaming_2.11/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-streaming_2.11;2.2.0
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.pom
@@ -3968,7 +3968,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.11;2.2.0!spark-streaming_2.11.pom(pom.original) (1806ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.11;2.2.0!spark-streaming_2.11.pom(pom.original) (1630ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -4010,7 +4010,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.pom(pom.original) (1735ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.pom(pom.original) (1596ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -4036,7 +4036,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.2.0!spark-sketch_2.11.pom(pom.original) (1145ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.2.0!spark-sketch_2.11.pom(pom.original) (1356ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -4050,9 +4050,9 @@
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.2.0->org.apache.spark#spark-core_2.11;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.2.0->org.apache.spark#spark-catalyst_2.11;2.2.0 [compile->master(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.11;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e9b7748
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a75d7b0
 [info] Resolving org.apache.spark#spark-catalyst_2.11;2.2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7e9b7748
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@a75d7b0
 [debug] 		tried /root/.ivy2/local/org.apache.spark/spark-catalyst_2.11/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.spark#spark-catalyst_2.11;2.2.0
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom
@@ -4062,7 +4062,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.2.0!spark-catalyst_2.11.pom(pom.original) (1755ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.2.0!spark-catalyst_2.11.pom(pom.original) (1591ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -4287,7 +4287,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.2.0/spark-graphx_2.11-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.2.0/spark-graphx_2.11-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.2.0/spark-graphx_2.11-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.11;2.2.0!spark-graphx_2.11.pom(pom.original) (1193ms)
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.11;2.2.0!spark-graphx_2.11.pom(pom.original) (1234ms)
 [info] Resolving org.apache.spark#spark-parent_2.11;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0
@@ -4578,6 +4578,14 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6
+[debug] 	found com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 in sbt-chain
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#tst_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [compile]
@@ -8259,6 +8267,10 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#tst_2.11;1.0 [test]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [runtime]
@@ -11941,6 +11953,10 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#tst_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -15626,6 +15642,10 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -19310,6 +19330,10 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#tst_2.11;1.0 [test-internal]
@@ -22994,6 +23018,10 @@
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->runtime]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#tst_2.11;1.0->org.apache.spark#spark-graphx_2.11;2.2.0 [compile->master]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->default(compile)]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->runtime]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->compile]
+[debug] == resolving dependencies default#tst_2.11;1.0->com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6 [compile->master]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#tst_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -23086,6 +23114,7 @@
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.11;2.2.0!spark-streaming_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.11;2.2.0!spark-graphx_2.11.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly_2.8.1;sbt0.10.1_0.6!sbt-assembly_2.8.1.jar
 [debug] 	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar
 [debug] 	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar
 [debug] 	[NOT REQUIRED] com.twitter#chill_2.11;0.8.0!chill_2.11.jar
@@ -23254,7 +23283,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 39344ms :: artifacts dl 105ms
+[debug] :: resolution report :: resolve 46096ms :: artifacts dl 247ms
 [debug] 	report for default#tst_2.11;1.0 compile produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-compile.xml
 [debug] 	report for default#tst_2.11;1.0 runtime produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-runtime.xml
 [debug] 	report for default#tst_2.11;1.0 test produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-test.xml
@@ -23268,5 +23297,5 @@
 [debug] 	report for default#tst_2.11;1.0 docs produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-docs.xml
 [debug] 	report for default#tst_2.11;1.0 pom produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-pom.xml
 [debug] 	report for default#tst_2.11;1.0 scala-tool produced in /root/bigdata/IdeaProjects/tst/target/resolution-cache/reports/default-tst_2.11-scala-tool.xml
-[debug] 	resolve done (39344ms resolve - 105ms download)
+[debug] 	resolve done (46096ms resolve - 247ms download)
 [info] Done updating.

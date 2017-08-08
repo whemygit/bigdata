@@ -4,7 +4,7 @@
 		module="tst_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170719183420"
+		publication="20170802174321"
 	>
 		<description>
 		tst
@@ -39,5 +39,6 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-graphx_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.eed3si9n" name="sbt-assembly_2.8.1" rev="sbt0.10.1_0.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

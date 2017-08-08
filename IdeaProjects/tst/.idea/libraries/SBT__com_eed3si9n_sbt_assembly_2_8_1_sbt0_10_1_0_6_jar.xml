@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.eed3si9n:sbt-assembly_2.8.1:sbt0.10.1_0.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.eed3si9n/sbt-assembly_2.8.1/jars/sbt-assembly_2.8.1-sbt0.10.1_0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

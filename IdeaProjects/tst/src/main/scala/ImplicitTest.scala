@@ -33,6 +33,11 @@ object ImplicitTest {
       (0, "male", 22, 1.5, "no", 4, 14, 4, 5))
 
     val data = dataList.toDF("affairs", "gender", "age", "yearsmarried", "children", "religiousness", "education", "occupation", "rating")
+    println(data.count())
+
+
+
+    data.show()
 
     data.printSchema()
 

@@ -7,10 +7,11 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 
 //json
-import com.fasterxml.jackson.module.scala.DefaultScalaModule
-import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
-import com.fasterxml.jackson.databind.ObjectMapper
-import com.fasterxml.jackson.databind.DeserializationFeature
+//import com.fasterxml.jackson.module.scala.DefaultScalaModule
+//import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+//import com.fasterxml.jackson.databind.ObjectMapper
+//import com.fasterxml.jackson.databind.DeserializationFeature
+
 
 object ReadandWrite {
   def main(args: Array[String]): Unit = {
@@ -23,9 +24,16 @@ object ReadandWrite {
     data.foreach(println)
 
 //    json
-    case class Person(name:String,lovePandas:Boolean)
-
+//    case class Person(name:String,age:Int)
+//    val inputfile="file:///usr/local/spark/examples/src/main/resources/people.json"
+//    val input=sc.textFile(inputfile)
+//    val result=input.flatMap(record=>{
+//      try {
+//        Some(mapper.readValue(record,classOf[Person]))
+//      }catch {
+//        case e:Exception=>None
+//      }
+//    })
 
   }
-
 }
