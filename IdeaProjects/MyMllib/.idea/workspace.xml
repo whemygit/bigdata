@@ -37,8 +37,8 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            <state relative-caret-position="576">
+              <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -47,11 +47,22 @@
       <file leaf-file-name="MyMovie.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MyMovie.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="216">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#42#78#0" expanded="false" />
+                <element signature="e#42#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsClassifySecond.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NewsClassifySecond.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="106" column="14" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="111" selection-end-column="36" />
+              <folding>
+                <element signature="e#62#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaiveBayesExample.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NaiveBayesExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesExample.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="72" />
+              <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="72" />
               <folding>
                 <element signature="e#41#89#0" expanded="true" />
               </folding>
@@ -171,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/MyVaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TFIDFExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Word2VecExample.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/utils/AnalyzeTools.java" />
         <option value="$PROJECT_DIR$/com/whemy/AnalyzeTools.java" />
         <option value="$PROJECT_DIR$/src/main/scala/FenciExample.scala" />
@@ -181,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/TFIDFXiada.scala" />
         <option value="$PROJECT_DIR$/target/scala-2.11/classes/jcseg.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesExample.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
       </list>
     </option>
   </component>
@@ -285,6 +296,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMllib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMllib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,7 +715,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1500458795625" />
+    <option name="lastUpdateTimestamp" value="1502248105685" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -734,7 +767,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1922" height="1019" extended-state="7" />
+    <frame x="-1" y="28" width="1922" height="1019" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -781,17 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AnalyzerDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#41#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1127,14 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AnalyzeTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1143,17 +1157,6 @@
             <element signature="e#0#1817#0" expanded="false" />
             <element signature="imports" expanded="false" />
             <element signature="e#916#924#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MyMovie.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#42#78#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1194,9 +1197,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="72" />
+          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="72" />
           <folding>
             <element signature="e#41#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MyMovie.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NewsClassifySecond.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="106" column="14" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="111" selection-end-column="36" />
+          <folding>
+            <element signature="e#62#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

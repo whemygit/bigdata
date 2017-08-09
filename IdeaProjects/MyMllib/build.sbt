@@ -23,3 +23,11 @@ libraryDependencies += "org.lionsoul" % "jcseg-server" % "2.1.1"
 libraryDependencies += "org.lionsoul" % "jcseg-elasticsearch" % "2.1.1"
 
 libraryDependencies += "org.lionsoul" % "jcseg" % "2.1.1" pomOnly()
+
+libraryDependencies += "org.apache.lucene" % "lucene-core" % "4.7.2"
+
+libraryDependencies += "org.apache.lucene" % "lucene-queryparser" % "4.7.2"
+
+libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "4.7.2"
+
+libraryDependencies += "com.janeluo" % "ikanalyzer" % "2012_u6"
