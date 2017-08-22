@@ -20,5 +20,9 @@ object JsontoDataframe {
     df.sort(df("age").desc).show()
     df.sort(df("age").desc,df("name").asc).show()
     df.select(df("name").as("username"),df("age")).show()
+    df.collect().foreach(println)
+    df.collect().map{line=>line.fieldIndex("name")}.foreach(println)
+    df.apply("age")
+    df.show()
   }
 }

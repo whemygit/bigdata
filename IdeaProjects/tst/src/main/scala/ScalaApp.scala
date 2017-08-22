@@ -11,10 +11,10 @@ object ScalaApp {
     Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
     val sc=new SparkContext("local[2]","First Spark App")
     val data=sc.textFile("file:///root/UserPurch.csv")
-//    println(data)
+    println(data)
 //    result:file://root/UserPurch.csv MapPartitionsRDD[1] at textFile at ScalaApp.scala:13
     data.cache()
-//    data.foreach(println)
+    data.foreach(println)
 //    result: Jill,Samsung Galaxy cover,8.95
 //    Bob,ipad cover,5.49
 //    John,iphone cover,9.9

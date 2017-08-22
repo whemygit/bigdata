@@ -15,12 +15,14 @@ object JsonTest {
     val conf=new SparkConf().setAppName("JsonTestApp").setMaster("local[2]")
     val sc=new SparkContext(conf)
     val jsonStrs=sc.textFile(inputFile)
+    jsonStrs.foreach(println)
     val result=jsonStrs.map(s=>JSON.parseFull(s))
     result.foreach({r=>r match {
       case Some(map: Map[string,Any])=>println(map)
       case None=>println("Parsing failed")
       case other=>println("Unknown data structure: "+ other)
     }})
+    result.foreach(println)
 
   }
 
